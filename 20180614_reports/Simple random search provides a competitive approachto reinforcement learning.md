@@ -13,20 +13,26 @@
 
 - OpenAI Gym Mujoco で　Swimmer-v1,Hopper-v1,HalfCheetah-v1,Walker2d-v1,Ant-v1,Humanoid-v1　について　ARS(今回提案手法 : Augmented Random Search), TRPO, NG-1, NG-2 のアルゴリズムについて　報酬がしきい値に達するまでのエピソード数を比較。
 <img src="./ARS03.png" alt="写真" width="600"> 
+
 - ARS,PPO,A2C,CEM,TRPO のアルゴリズム毎に　Swimmer-v1,Hopper-v1,HalfCheetah-v1,Walker2d-v1　で　最大平均報酬を比較。
 <img src="./ARS04.png" alt="写真" width="600"> 
+
 - MuJoCoの移動作業におけるARSとESおよびTRPOの方法で、報酬閾値に達するのに必要な平均タイムスペップ数を比較。
 <img src="./ARS05.png" alt="写真" width="600"> 
+
 - Humanoid-v1タスクの平均報酬6000に達するのに必要な時間の評価(進化戦略に比べて約15倍速くなった)
 <img src="./ARS06.png" alt="写真" width="600"> 
+
 - Humanoid-v1タスクで平均報酬が6000に達するのに必要な時間を比較。
 <img src="./ARS07.png" alt="写真" width="600"> 
 
 ## 技術や手法の肝は？
 - 摂動をr利用した基本的なランダム探索(1965 Random optimization: Automation and Remote control)
 <img src="./ARS01.png" alt="写真" width="600"> 
+
 - 今回提案のアルゴリズム
 <img src="./ARS02.png" alt="写真" width="600">
+- 
   - V1 : 報酬の標準偏差によるスケーリング
   - V2 : 状態の正規化
   - V1-t,V2-t : 大きいほうの報酬を使う : 摂動の報酬の大きいほうの報酬の上位b個の報酬で重みを計算する
@@ -37,6 +43,7 @@
 
 - Mujoco の代替えのフリーな物理エンジンを使った。
   - pybullet (pip install pybullet)
+
 - Halfcheetaを実装してみた結果
   - 並列処理でなく１CPUで学習したのでCorei7で7時間くらいかかった。
   - [ARS Halfcheeta-1](https://www.youtube.com/watch?v=VS8ovl9ntyE&feature=youtu.be)
@@ -46,6 +53,7 @@
 ## 今回確認できなかったこと
 
 - Observation Space と Action Space が決まればモデルフリーな強化学習ができることは分かったが、
+
 - OpenAI Gym CartPole-v0 をARSで学習させてみたい。(BOX Discrete について調べて時間切れになった)
 
 ## 先行研究と比べて何がすごい？
