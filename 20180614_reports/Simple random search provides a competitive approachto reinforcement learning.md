@@ -48,8 +48,8 @@
 
 - Halfcheetaを実装してみた結果
   - 並列処理でなく１CPUで学習したのでCorei7で7時間くらいかかった。
-  - [ARS Halfcheeta-1](https://www.youtube.com/watch?v=VS8ovl9ntyE&feature=youtu.be)
-  - [ARS Halfcheeta-2](https://www.youtube.com/watch?v=JLZvPm43SMg&feature=youtu.be)
+  - [ARS Halfcheeta-1](https://youtu.be/VS8ovl9ntyE)
+  - [ARS Halfcheeta-2](https://youtu.be/JLZvPm43SMg)
   - [ARS Halfcheeta-3](https://youtu.be/d9oKOJOntgI)
 
 ## 今回確認できなかったこと
