@@ -44,7 +44,7 @@
 ## UdemyでARSの講座が安くなっていたので受けてみた
 
 - Mujoco の代替えのフリーな物理エンジンを使った。
-  - pybullet (pip install pybullet)
+  - [pybullet](https://pypi.org/project/pybullet/) - pip install pybullet
 
 - Halfcheetaを実装してみた結果
   - 並列処理でなく１CPUで学習したのでCorei7で7時間くらいかかった。
