@@ -43,7 +43,7 @@
 
 ## UdemyでARSの講座が安くなっていたので受けてみた
 
-- Mujoco の代替えのフリーな物理エンジンを使った。
+- Mujoco の代替えのフリーな物理エンジンを使った。(OpenAI Gym サポートしてます)
   - [pybullet](https://pypi.org/project/pybullet/) - pip install pybullet
 
 - Halfcheetaを実装してみた結果
