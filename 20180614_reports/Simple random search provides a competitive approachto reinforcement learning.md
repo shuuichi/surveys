@@ -12,7 +12,7 @@
 ## どうやって有効だと検証した？
 
 - OpenAI Gym Mujoco で　Swimmer-v1,Hopper-v1,HalfCheetah-v1,Walker2d-v1,Ant-v1,Humanoid-v1　について　ARS(今回提案手法 : Augmented Random Search), TRPO, NG-1, NG-2 のアルゴリズムについて　報酬がしきい値に達するまでのエピソード数を比較。
-<img src="./ARS03.png" alt="写真" width="600"> 
+<img src="https://github.com/shuuichi/surveys/blob/master/20180614_reports/ARS03.png" alt="写真" width="600"> 
 
 - ARS,PPO,A2C,CEM,TRPO のアルゴリズム毎に　Swimmer-v1,Hopper-v1,HalfCheetah-v1,Walker2d-v1　で　最大平均報酬を比較。
 <img src="./ARS04.png" alt="写真" width="600"> 
