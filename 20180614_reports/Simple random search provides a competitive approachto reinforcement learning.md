@@ -15,23 +15,23 @@
 <img src="https://github.com/shuuichi/surveys/blob/master/20180614_reports/ARS03.png" alt="写真" width="600"> 
 
 - ARS,PPO,A2C,CEM,TRPO のアルゴリズム毎に　Swimmer-v1,Hopper-v1,HalfCheetah-v1,Walker2d-v1　で　最大平均報酬を比較。
-<img src="./ARS04.png" alt="写真" width="600"> 
+<img src="https://github.com/shuuichi/surveys/blob/master/20180614_reports/ARS04.png" alt="写真" width="600"> 
 
 - MuJoCoの移動作業におけるARSとESおよびTRPOの方法で、報酬閾値に達するのに必要な平均タイムスペップ数を比較。
-<img src="./ARS05.png" alt="写真" width="600"> 
+<img src="https://github.com/shuuichi/surveys/blob/master/20180614_reports/ARS05.png" alt="写真" width="600"> 
 
 - Humanoid-v1タスクの平均報酬6000に達するのに必要な時間の評価(進化戦略に比べて約15倍速くなった)
-<img src="./ARS06.png" alt="写真" width="600"> 
+<img src="https://github.com/shuuichi/surveys/blob/master/20180614_reports/ARS06.png" alt="写真" width="600"> 
 
 - Humanoid-v1タスクで平均報酬が6000に達するのに必要な時間を比較。
-<img src="./ARS07.png" alt="写真" width="600"> 
+<img src="https://github.com/shuuichi/surveys/blob/master/20180614_reports/ARS07.png" alt="写真" width="600"> 
 
 ## 技術や手法の肝は？
 - 摂動をr利用した基本的なランダム探索(1965 Random optimization: Automation and Remote control)
-<img src="./ARS01.png" alt="写真" width="600"> 
+<img src="https://github.com/shuuichi/surveys/blob/master/20180614_reports/ARS01.png" alt="写真" width="600"> 
 
 - 今回提案のアルゴリズム
-<img src="./ARS02.png" alt="写真" width="600">
+<img src="https://github.com/shuuichi/surveys/blob/master/20180614_reports/ARS02.png" alt="写真" width="600">
 
 - 今回提案のアルゴリズム
   - V1 : 報酬の標準偏差によるスケーリング
